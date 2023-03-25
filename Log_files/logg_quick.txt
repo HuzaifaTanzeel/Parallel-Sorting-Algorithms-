@@ -1,0 +1,41 @@
+Serial Execution:
+
+Array Size: 100000000, Time Taken: 207.09 sec
+Array Size: 500000000, Time Taken: 4817.70 sec
+
+Parallel Execution with OPENMP:
+
+100 MILLION DATASET:
+
+Array size: 100000000 , Threads: 1 , Time taken: 159.57 sec 
+Array size: 100000000 , Threads: 4 , Time taken: 151.61 sec 
+Array size: 100000000 , Threads: 8 , Time taken: 154.02 sec 
+Array size: 100000000 , Threads: 12 , Time taken: 152.01 sec
+Array size: 100000000 , Threads: 18 , Time taken: 154.00 sec  
+Array size: 100000000 , Threads: 20 , Time taken: 151.79 sec 
+Array size: 100000000 , Threads: 40 , Time taken: 153.99 sec 
+Array size: 100000000 , Threads: 80 , Time taken: 154.26 sec 
+Array size: 100000000 , Threads: 100 , Time taken: 161.77 sec 
+Array size: 100000000 , Threads: 150 , Time taken: 164.09 sec 
+Array size: 100000000 , Threads: 200 , Time taken: 164.52 sec 
+Array size: 100000000 , Threads: 250 , Time taken: 169.95 sec 
+
+500 MIILION DATASET:
+
+Array size: 500000000 , Threads: 1 , Time taken: 2456.59 sec 
+Array size: 500000000 , Threads: 18 , Time taken: 1668.76 sec 
+Array size: 500000000 , Threads: 30 , Time taken: 2417.40 sec 
+Array size: 500000000 , Threads: 200 , Time taken: 1454.37 sec 
+Array size: 500000000 , Threads: 500 , Time taken: 1672.74 sec
+
+Parallel Execution with MPI:
+
+100 MILLION DATASET:
+
+Array Size : 100000000  , Processes: 1  , Time Taken:  371.45 sec
+Array Size : 100000000  , Processes: 10  , Time Taken: 212.28 sec
+Array Size : 100000000  , Processes: 50  , Time Taken: 197.87 sec
+Array Size : 100000000  , Processes: 80  , Time Taken: 195.43 sec
+Array Size : 100000000  , Processes: 100  , Time Taken: 201.19 sec
+Array Size : 100000000  , Processes: 120  , Time Taken: 212.45 sec
+Array Size : 100000000  , Processes: 150  , Time Taken: 207.09 sec
